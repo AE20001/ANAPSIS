@@ -1,0 +1,82 @@
+
+.especialistas{
+    width: 100%;
+    margin-bottom: 0px;
+    border-width: 10px;
+    border-bottom: 1.5px solid #000;
+    margin-top: -0.2em;
+    border-top: 1.5px solid #000;
+    background-color: rgba(196, 206, 229, 0.37);
+    
+}
+
+.especialistas .boxes {
+text-align: justify;
+}   
+.especialistas .grupos-1{
+    border-radius: 20px;
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap:50px;
+    padding: 45px 0px;
+}
+.especialistas .grupos-1 .boxes figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.especialistas .grupos-1 .boxes figure img{
+    width: 250px;
+}
+.especialistas .grupos-1 .boxes h2{
+    color: black;
+    margin-bottom: 25px;
+    font-size: 20px;
+    font-style: oblique;
+    font-weight: bolder;
+}
+.especialistas .grupos-1 .boxes p{
+    color: black;
+    margin-bottom: 10px;
+}
+.especialistas .grupos-1 .red-social a{
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: rgb(202, 105, 105);
+    margin-right: 10px;
+    background-color: #0d2033;
+    text-align: center;
+    transition: all 300ms ease;
+}
+.especialistas .grupos-1 .red-social a:hover{
+    color: aqua;
+}
+.especialistas .grupos-2{
+    background-color: #85C3CC;
+    padding-top: 30px 80px;
+    text-align: center;
+    color: #fff;
+}
+
+.especialistas .grupos-2 small{
+    font-size: 15px;
+    
+}
+@media screen and (max-width:800px){
+    .especialistas .grupos-1{
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap:30px;
+        padding: 35px 0px;
+    }
+
+}   
+

@@ -1,0 +1,14 @@
+.importancia{
+    text-align: center;
+}
+
+.importancia-ayuda .title {
+font-size:25px;
+color: rgb(119, 119, 241);
+
+}
+
+.importancia-ayuda .title p{
+    text-align: justify;
+}
+
